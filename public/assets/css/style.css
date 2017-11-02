@@ -1,0 +1,116 @@
+.panel-body a{
+    cursor: pointer;
+}
+.message{
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 290px;
+    background: #959595;
+    width: 50%;
+    padding: 5px 10px;
+    border-radius: 25px;
+    display: none;
+}
+.messages{
+    display: block;
+    position: fixed;
+    background: #959595;
+    top: 100px;
+    width: 35%;
+    height: 150px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    line-height: norm;
+    padding-top: 60px;
+    border-radius: 25px;
+    left: 400px;
+}
+.message .close{
+    float: right;
+    padding: 5px;
+}
+.message p{
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 300;
+}
+.message h1{
+    color: #ffffff;
+}
+.message textarea{
+    resize: none;
+}
+.message button{
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.messages_body2{
+    display: none;
+}
+.messages_body table, .messages_body2 table{
+    width: 100%;
+}
+.messages_body tr, .messages_body2 tr{
+    cursor: pointer;
+    margin-bottom:5px;
+    border: 1px solid #000;
+}
+.messages_body th, .messages_body2 th{
+    text-align: center;
+    padding: 5px 0;
+}
+.messages_body td, .messages_body2 td{
+    padding: 5px 5px;
+}
+.text{
+    width: 100%;
+    background: #959595;
+    position: absolute;
+    z-index: 10;
+    top: -220px;
+    border-radius: 25px;
+    left:-330px;
+    
+}
+.closer_text{
+    float: right;
+    margin-right: 25px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    display: block;
+}
+.text {
+    padding: 15px 5px;
+}
+.text_mes{
+    background: #ffffff;
+    padding: 15px 10px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+.text_mes div{
+    overflow: hidden;
+}
+.text_mes h3{
+    float: left;
+}
+.text_mes h5{
+    float: right;
+}
+.delete, .delete2{
+    display: none;
+}
+.wrapper_button{
+    width: 100%;
+    height: 40px;
+    display: block;
+}
+.exit{
+    float: right;
+}
